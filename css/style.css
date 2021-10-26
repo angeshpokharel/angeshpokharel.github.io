@@ -1,0 +1,69 @@
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, ;
+    color: blueviolet;
+    font-size: 58px;
+}
+
+h3 {
+    font-family: monospace;
+    color: blueviolet;
+    font-size: 23px;
+}
+
+
+
+body {
+    background-color: rgb(128,128,128);
+    
+    color: white;
+}
+
+/* :horizontal rule for line drawing */
+/* hr {
+    display: block;
+    height: 0px;
+    overflow: hidden;
+    color: white;
+    border-style: inset;
+    border-width: 1px;
+} */
+
+
+#italic{
+    font-style: italic;
+    font-size: 12px;
+
+}
+
+
+  
+  a{
+    color: red;
+      text-decoration: none;
+  } 
+  a:hover {
+    text-decoration: underline;
+    color: darksalmon;
+  }
+  
+  a:hover {
+    cursor: text;
+    cursor: pointer;
+    
+  }
+img{
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+.referer{
+    height: 70px !important;
+    width: 100px !important;
+}
+
+span{
+    color: yellow;
+}
+
+
