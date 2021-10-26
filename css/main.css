@@ -1,0 +1,40 @@
+.site-header{
+    
+    background-color:rgb(135, 203, 243);
+    color: #ecfdf9;
+    height:50vh;
+    font-family: monospace;
+}
+
+.site-header-content{
+    margin: 11px;
+    margin-left: 100px;
+}
+
+
+.site-footer{
+    margin-top: 81px;
+    margin-bottom: 0%;
+    background-color:rgb(207, 207, 207);
+    color: #000000;
+    height:16vh;
+    font-family: monospace;
+}
+.site-footer-content{
+    
+    margin-left: 101px;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left:  50px;
+    height:200px;
+    width:200px;
+}
+.course-link{
+    color:#ecfdf9;
+}
+body{
+    margin:0;
+}
