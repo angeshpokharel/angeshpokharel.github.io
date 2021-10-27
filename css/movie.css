@@ -1,11 +1,11 @@
 body {
-    background-image: url("../image/moviereview/background.png");
+    background-image: url("../images/moviereview/background.png");
     margin: 0px;
     padding: 0px;
 }
 
 .banner {
-    background-image: url("../image/moviereview/bannerbg.png");
+    background-image: url("../images/moviereview/bannerbg.png");
     background-repeat: repeat-x;
     margin: 0px;
     padding: 0px;
@@ -90,7 +90,7 @@ h1 {
 }
 
 .rottenImage {
-    background-image: url("../image/moviereview/rbg.png");
+    background-image: url("../images/moviereview/rbg.png");
     background-repeat: repeat-x;
     margin: 0px;
     padding: 0px;
