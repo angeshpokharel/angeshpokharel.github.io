@@ -69,6 +69,6 @@ ul.image{
 }
 
 body{
-    background: url("../images/silverware.jpg");
+    background: url('../images/silverware.jpg');
     background-attachment: fixed;
 }
