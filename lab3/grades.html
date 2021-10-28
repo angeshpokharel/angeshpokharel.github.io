@@ -1,0 +1,32 @@
+<!DOCTYPE html> <html>
+      <head>
+            <title>Retrieve Grade</title>
+            <link rel="stylesheet" type="text/css" href="../css/grade.css">
+      </head>
+      <body>
+            <h1>Retrieve your grade</h1>
+            <div class="container">
+            <form action="http://mumstudents.org/params.php">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Your Name...">
+            <label for="studentid">Student ID:</label>
+            <input type="text" id="studentid" name="name" placeholder="Your Student Id...">
+
+
+            <label for="assignment">Assignment</label>
+            <select id="assignment" name="assignment">
+                  <option value="Lab0">Lab0</option>
+                  <option value="HW1">HW1</option>
+                  <option value="HW2">HW1</option>
+                  <option value="HW3">HW1</option>
+
+            </select>
+
+            <label for="verification">Please verify, You are seeing own Grades.</label>
+            <input type="checkbox" id="verification" name="verification">
+            <br>
+            <input type="submit" name="Submit Btn" value="Get Grade!">
+            
+            </form>
+      </body>
+</html>
