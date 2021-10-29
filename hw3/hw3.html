@@ -9,81 +9,39 @@
 <body>
 
 
+<div align=center>
+    <img src="../images/signup/nerdluv.png" >
+    <figcaption >where meek geeks meet</figcaption>
+</div>
 
-    <img src="../images/signup/nerdluv.png">
-    <figcaption>where meek geeks meet</figcaption>
+    <div class="flex-container">
+        <form action="http://mumstudents.org/params.php" method="get">
+            <fieldset>
+                <legend>New User Signup:</legend>
+                <label for="name">Name:</label>
+                <input type="text" maxlength="16" id="name" name="name"><br><br>
+                <span>Gender:</span>
+                <input type="radio" id="male" name="gender" value="male">
+                <label class="gender" for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" checked>
+                <label class="gender" for="female">Female</label><br><br>
+                <label for="age">Age:</label>
+                <input type="text" size="6" maxlength="2" id="age" name="age"><br><br>
+                <label for="personality">Personality Type:</label>
+                <input type="text" size="6" maxlength="4" id="personality" name="personality">(<a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp">Don't know your type?</a>)<br><br>
+                <label for="os">Favorite Os:</label>
+                <select id="os" name="os">
+                    <option value="linux">linux</option>
+                    <option value="macos">Mac Os X</option>
+                    <option value="windows" selected>Windows</option>
+                </select><br><br>
+                <label>Seeking Age:</label>
+                <input type="text" placeholder="min" maxlength="2" size="6" name="min"> to <input placeholder="max" type="text" maxlength="2" size="6" name="max"><br><br>
+                <input type="submit" value="Sign Up">
+            </fieldset>
 
-    <fieldset class="background">
-        
-        <legend class="legend">New User Signup:</legend>
-       
-
-
-        <form action="http://mumstudents.org/params.php">
-
-            <div class="inline">
-                <strong>Name : <span></span></strong>
-                <br>
-                <br>
-
-                <strong>Gender :</strong>
-                <br>
-                <br>
-
-                <strong>Age : </strong>
-                <br>
-                <br>
-
-                <strong>Personality Type:</strong>
-                <br>
-                <br>
-
-                <strong>Favourite OS:</strong>
-                <br>
-                <br>
-
-                <strong>Seeking Age: </strong>
-
-
-            </div>
-            <div class="float" >
-                <input class="rightmargin" type="text" id="name" name="name" maxlength="16" placeholder="Your Name..">
-                <br>
-                <br>
-
-                <label><input class="rightmargin" input type="radio" name="gender" value="male"> Male</label>
-                <label><input type="radio" name="gender" value="female"> Female</label>
-                <br>
-                <br>
-
-                <input class="rightmargin" type="text" id="age" name="age" maxlength="4" placeholder="Your Age..">
-                <br>
-                <br>
-
-                <input class="rightmargin" type="text" id="Personality" name="Personality" maxlength="16"
-                    placeholder="Your Personality..">
-                <label> (<label class="color"><a href="http://www.humanmetrics.com/cgi-win/jtypes2.asp">Don't know your
-                            Type?</a></label>)</label>
-                <br>
-                <br>
-
-                <select class="rightmargin">
-                    <option value="windows">Windows</option>
-                    <option value="linux">Linux</option>
-                    <option value="mac">Mac</option>
-                </select>
-                <br>
-                <br>
-
-                <input class="rightmargin" type="text" id="min" name="min" placeholder="min" size="4"> to
-                <input type="text" id="max" name="max" placeholder="max" size="4">
-
-            </div>
-            <br>
-            <input class="button" type="submit" value="Sign Up">
         </form>
- 
-</fieldset>
+    </div>
 
 
 
