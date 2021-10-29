@@ -8,7 +8,7 @@
 }
 
 .background{
-    border: 2px outset  ;
+    border: 2px outset;
     border-radius: 7pt;
     padding: 15pt;
     margin-top: 3%;
@@ -26,17 +26,18 @@
     margin-right: 10%;
 }
      
-.inline{
-  display: inline-block ;
-  font-weight: bold;
-  font-family: sans-serif;
-}
+
 legend{
     background-color: #ffffff;
     border: 2px solid;
     border-color: #c5c5c5;
     font-size: 17px;
     font-family: sans-serif;
+}
+.inline{
+  display: inline-block ;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 
 
@@ -58,7 +59,7 @@ legend{
 .textblock{
 
     width: 87pt;
-    border: 1px solid black
+    border: 1px solid black;
 }
 
 body{
