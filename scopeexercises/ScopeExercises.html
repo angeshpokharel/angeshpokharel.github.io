@@ -1,24 +1,25 @@
 <p><strong>1. Determine what this Javascript code will print out (without running it):</strong></p>
-<p><strong>x = 1;</strong></p>
-<p><strong>var a = 5;</strong></p>
-<p><strong>var b = 10;</strong></p>
-<p><strong>var c = function(a, b, c) {</strong></p>
-<p><strong>var x = 10;</strong></p>
-<p><strong>document.write(x);</strong></p>
-<p><strong>document.write(a);</strong></p>
-<p><strong>var f = function(a, b, c) {</strong></p>
-<p><strong>b = a;</strong></p>
-<p><strong>document.write(b);</strong></p>
-<p><strong>b = c;</strong></p>
-<p><strong>var x = 5;</strong></p>
-<p><strong>}</strong></p>
-<p><strong>f(a,b,c);</strong></p>
-<p><strong>document.write(b);</strong></p>
-<p><strong>&nbsp;}</strong></p>
-<p><strong>c(8,9,10);</strong></p>
-<p><strong>document.write(b);</strong></p>
-<p><strong>document.write(x);</strong></p>
-<p><strong>}</strong></p>
+<p><strong><pre>
+  x = 1;
+var a = 5;
+var b = 10;
+var c = function(a, b, c) {
+    document.write(x);
+    document.write(a);
+    var f = function(a, b, c) {
+        b = a;
+        document.write(b);
+        b = c;
+        var x = 5;
+    }
+        f(a,b,c);
+        document.write(b);
+        var x = 10;
+ }
+c(8,9,10);
+document.write(b);
+document.write(x); </pre>
+  </strong></p>
 <p>Ans: Output is 10,8,8,9,10,1 respectively.</p>
 <p>
   <br>
