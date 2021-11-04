@@ -406,7 +406,7 @@
     <p><strong>&nbsp; });</strong></p>
     <p><strong>&nbsp; promise.then(val =&gt; alert(“Success: “ + val))</strong></p>
     <p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;.catch(e =&gt; alert(“Error: “ + e));</strong></p>
-    <p><strong>Ans:</strong> It’s going to show an alert with “Success Hattori” and 500 mili seconds after it s going to show an alert with “Error: Yoshi”</p>
+    <p><strong>Ans:</strong> It’s going to show an alert with “Success Hattori” and setTimeout() has no effect. Once the promse is settled, it cant be changed.</p>
     <br>
     <p><strong>16. What is the output of the following code?</strong></p>
     <p><strong>
@@ -429,7 +429,9 @@
     <p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; console.log(error);</strong></p>
     <p><strong>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return 'Error caught';</strong></p>
     <p><strong>&nbsp; &nbsp; &nbsp; &nbsp; });</strong>&nbsp; &nbsp;&nbsp;</p>
-    <p><strong>Ans:</strong> Print Success in console;</p>
+    <p><strong>Ans:</strong> Print Success in console<br>
+    success<br>
+    error </p>
 
   </body>
 </html>
