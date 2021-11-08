@@ -18,7 +18,7 @@ body, button {
 
 /* This class should be applied to each of the 15 puzzle pieces. */
 .puzzlepiece {
-	background-image: url(http://mumstudents.org/cs472/2019-10-BL/Homework/9puzzle/resources/background.jpg);
+	background-image: "../images/mario.jpeg";
 	border: 5px solid black;
 	width: 90px;
 	height: 90px;
