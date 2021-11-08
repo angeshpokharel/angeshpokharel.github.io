@@ -54,7 +54,7 @@ $(document).ready(function () {
             div.style.left = x + 'px';
             div.style.top = y + 'px';
             if (!shuffle) {
-                div.style.backgroundImage = 'url("http://mumstudents.org/cs472/2019-10-BL/Homework/9puzzle/resources/background.jpg")';
+                div.style.backgroundImage = 'url("../images/mario.png")';
                 div.style.backgroundPosition = -x + 'px ' + (-y) + 'px';
             }
 
