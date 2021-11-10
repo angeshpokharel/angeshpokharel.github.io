@@ -44,7 +44,8 @@
     
       <pre style="font-weight:normal;">
                         $(document).ready(function () {
-                            $("body p:nth-child(2)").text($("body p:first-child").text());
+                            var str = $( "p" ).first().text();
+                            $( "p" ).last().html( str );
                         });
       </pre>
     
@@ -78,8 +79,7 @@
        <pre style="font-weight:normal;">
             &lt;script&gt;
                 $(document).ready(function () {
-                    $("ul.level-2 &gt; li").css("background-color", "red");
-                    $("ul.level-3").css("background-color", "white");
+                    $(".level-2").children().css("background-color","red");
                 });
             &lt;/script&gt;
        </pre>
@@ -129,7 +129,7 @@
                     $(document).ready(function () {
         &lt; !—INSERT YOUR JQUERY CODE HERE - - &gt;
         
-                            $(".ancestors span").parent().parent().css("color", "red");            
+                            $("span").parents().css("color", "green");            
                     });
                 &lt;/script&gt;
           </pre>
